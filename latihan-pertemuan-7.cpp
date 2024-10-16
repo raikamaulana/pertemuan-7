@@ -177,6 +177,7 @@ int main(){
             if (pilih != 'y' && pilih != 'Y' && pilih != 'n' && pilih != 'N'){
                 cout << "Pilihan tidak valid! Mohon Input Kembali." << endl;
             }
+            cin.ignore();
         } while (pilih != 'y' && pilih != 'Y' && pilih != 'n' && pilih != 'N');
 
     } while (pilih == 'y' || pilih == 'Y');
